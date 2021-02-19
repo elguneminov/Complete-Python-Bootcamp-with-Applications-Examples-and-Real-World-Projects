@@ -1,0 +1,13 @@
+Generator functions allow you to declare a function that behaves like an iterator.
+
+They allow programmers to make an iterator in a fast, easy, and clean way.
+Generators are used to create iterators, but with a different approach.
+Generators are simple functions which return an iterable set of items, one at a time, in a special way.
+
+Generator-Function : A generator-function is defined like a normal function, but whenever it needs to generate a value,
+it does so with the yield keyword rather than return. If the body of a def contains yield,
+the function automatically becomes a generator function.
+_______________________________________________________________________________________________________________________
+Generator-Object : Generator functions return a generator object.
+Generator objects are used either by calling the next method on the generator object or using the generator object
+in a “for in” loop .

@@ -1,0 +1,35 @@
+-Functions provide a way,to break problems into smaller and independent block of code which perform specific task
+-Functions is blocks of code and it is reusable
+
+-Def keyword
+-Reduce lines of code
+
+-If you want to write code just once and use it many times
+-Same Code repeating
+
+-DRY(Do not Repeat Yourself)
+-More understandable codes
+
+-Increase readability
+-You defined a function and where you need it you can call it
+
+-You have long work or job to be done,define a function and write your codes inside the function and then you can
+just one click and use it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

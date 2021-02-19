@@ -1,0 +1,19 @@
+Python Iterators
+Iterator in python is an object that is used to iterate over iterable objects like lists, tuples, dicts, and sets.
+The iterator object is initialized using the __iter__ method. It uses the next() method for iteration.
+An iterator is an object that can be iterated upon, meaning that you can traverse through all the values.
+
+Technically, in Python, an iterator is an object which implements the iterator protocol, which consist of the methods
+  __iter__() and __next__().
+
+Lists, tuples, dictionaries, and sets are all iterable objects. They are iterable containers which you can get
+an iterator from.
+Even strings are iterable
+All these objects have a iter() method which is used to get an iterator
+
+__iter()__ method that is called for the initialization of an iterator. This returns an iterator object
+
+next () The next method returns the next value for the iterable. When we use a for
+loop to traverse any iterable object, internally it uses the iter() method to get an iterator object which
+further uses next() method
+to iterate over. This method raises a StopIteration to signal the end of the iteration.

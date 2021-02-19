@@ -1,0 +1,40 @@
+An abstract class can be considered as a blueprint for other classes.
+A class which contains one or more abstract methods is called an abstract class
+It is a good practice of DRY (Don’t Repeat Yourself) principle
+It allows you to create a set of methods that must be created within any child classes built from the abstract class.
+
+While we are designing large functional units we use an abstract class
+By default, Python does not provide abstract classes.
+Python comes with a module which provides the base for defining Abstract Base classes(ABC) and that module name is ABC.
+ABC works by decorating methods of the base class as abstract and registering concrete classes
+as implementations of the abstract base.
+
+A method becomes abstract when decorated with the keyword @abstractmethod.
+from abc import ABC, abstractmethod
+
+An abstract class has some features, as follows:
+
+-An abstract method is a method that just has a declaration but does not have a detail implementation.
+-An abstract class cannot be instantiated. It just provides an interface for subclasses to avoid code duplication.
+-It makes no sense to instantiate an abstract class.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
