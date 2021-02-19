@@ -1,6 +1,6 @@
 # Complete Python Bootcamp with Applications/Examples and Real World Projects
 
-## Who this topics are for:
+## Who these topics are for:
 * Beginners who have never programmed before.
 * Programmers switching languages to Python.
 * Intermediate Python programmers who want to level up their skills!
